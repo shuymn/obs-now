@@ -1,0 +1,12 @@
+[package]
+name = "obs-now"
+version = "0.1.0"
+authors = ["shuymn <mail@shuymn.me>"]
+edition = "2018"
+
+[dependencies]
+obs-wrapper = "0.1.6"
+
+[lib]
+name = "obsnow"
+crate-type = ["cdylib"]
